@@ -2,7 +2,7 @@
 #include <ctype.h>
 int main()
 {
-    char foodType = '\0';
+    int foodType = '0';
     int choice = 0;
     puts("Welcome to Madurai Cafe");
     do
@@ -28,7 +28,9 @@ int main()
                 break;
             default:
                 puts("We dont serve Grass Sir");
+                break;
             }
+            break;
         case 'n':
             puts("1:Mutton-pulav 2:Chicken-chilly 3:Fish-fry. Your choice plz");
             scanf("%d", &choice);
@@ -45,11 +47,13 @@ int main()
                 break;
             default:
                 puts("We dont serve Lizards Maam");
+                break;
             }
+            break;
         }
         puts("Do you wish to have more? 1:Yes 2:No");
         scanf("%d", &choice);
-    } while (choice != 1);
+    } while (choice = 1);
     puts("Thank you Visit again");
     return 0;
 }
