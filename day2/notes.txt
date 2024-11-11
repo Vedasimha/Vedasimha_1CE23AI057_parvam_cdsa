@@ -1,0 +1,39 @@
+datatypes
+char - 1 byte
+int - 4 bytes
+double - 8 bytes
+note : by default these data are signed i.e. MSB is signed bit
+float - 4 bytes (by default stores 6 digits of precision)
+manipulators - 
+1. the one that changes sign (signed, unsigned)
+2. the one that changes size (short, long)
+note: by default int is long int
+thus, int is long int and also signed long int
+short int is 2 bytes
+long long int is 8 bytes
+key words - 
+for, while, do (loops)
+switch, case, default (to implement choosing between the options)
+if, else (to implement binary condition)
+break (to take the control out of the block)
+continue (to skip remaining instructions of current interation and continue with the next iteration)
+return (to return the control back to the caller(calling function)). Alternatively we can return a value also.
+struct, union, enum (to create user defined datatypes)
+static (to create a global variable with file scope and to create a local variable with life till end of the program)
+void (to mention that the function does not return a value)
+extern (to use an external variable(global variable declared in some other file))
+const (to create a read-only variable)
+
+operators-
+arithmetic: +, -, *, /, %
+all are binary operators (which requires two operands)
+i/p are numbers, o/p is number
+evaluated from left to right (associtivity)
+in x+y-z, x+y is evaluated first
+the + and - lesser precedence or priority
+the associtivity is over-riden by the precedence of operators
+Ex: in the x-y%z y%z is evaluated first
+in every operation datatypes of the of the operands must be same
+infix notation is used
+the evaluation of any arithmetic expression writen in infix notation is first converted into postfix and then evaluated
+relational operators:
