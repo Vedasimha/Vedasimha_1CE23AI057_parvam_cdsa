@@ -15,6 +15,6 @@ public class Main {
             if (array[i] == target) {
                 return i;
             }
-}
-}
+        }
+    }
 }
